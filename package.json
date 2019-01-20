@@ -1,6 +1,6 @@
 {
   "name": "@scanf/roman-numerals",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert Arabic numbers to Roman numbers",
   "scripts": {
     "lint": "eslint --fix cli.js",
