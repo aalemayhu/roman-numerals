@@ -2,7 +2,6 @@
   "name": "@scanf/roman-numerals",
   "version": "0.0.0",
   "description": "Convert Arabic numbers to Roman numbers",
-  "main": "roman-numerals.js",
   "scripts": {
     "lint": "eslint --fix cli.js",
     "test": "ava"
@@ -23,7 +22,7 @@
   },
   "homepage": "https://github.com/scanf/roman-numerals#readme",
   "bin": {
-    "roman-numerals": "./roman-numerals.js"
+    "roman-numerals": "./cli.js"
   },
   "dependencies": {
     "ava": "^1.1.0",
