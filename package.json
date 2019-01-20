@@ -1,0 +1,30 @@
+{
+  "roman-numerals": "project_roman-numerals",
+  "version": "0.0.0",
+  "description": "TODO: add the project description here",
+  "main": "project_roman-numerals.js",
+  "scripts": {
+    "lint": "eslint --fix lib/project_setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scanf/project_roman-numerals.git"
+  },
+  "keywords": [
+    "git",
+    "grep",
+    "search"
+  ],
+  "author": "Alexander Alemayhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scanf/project_roman-numerals/issues"
+  },
+  "homepage": "https://github.com/scanf/project_roman-numerals#readme",
+  "bin": {
+    "project_roman-numerals": "./project_roman-numerals.js"
+  },
+  "dependencies": {
+    "cac": "^6.4.0"
+  }
+}
