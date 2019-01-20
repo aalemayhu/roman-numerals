@@ -1,5 +1,5 @@
 {
-  "roman-numerals": "@scanf/roman-numerals",
+  "name": "@scanf/roman-numerals",
   "version": "0.0.0",
   "description": "Convert Arabic numbers to Roman numbers",
   "main": "roman-numerals.js",
