@@ -1,30 +1,32 @@
 {
-  "roman-numerals": "project_roman-numerals",
+  "roman-numerals": "roman-numerals",
   "version": "0.0.0",
-  "description": "TODO: add the project description here",
-  "main": "project_roman-numerals.js",
+  "description": "Convert Arabic numbers to Roman numbers",
+  "main": "roman-numerals.js",
   "scripts": {
-    "lint": "eslint --fix lib/project_setup.js"
+    "lint": "eslint --fix cli.js",
+    "test": "ava"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scanf/project_roman-numerals.git"
+    "url": "git+https://github.com/scanf/roman-numerals.git"
   },
   "keywords": [
-    "git",
-    "grep",
-    "search"
+    "roman",
+    "numerals",
+    "numbers"
   ],
   "author": "Alexander Alemayhu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scanf/project_roman-numerals/issues"
+    "url": "https://github.com/scanf/roman-numerals/issues"
   },
-  "homepage": "https://github.com/scanf/project_roman-numerals#readme",
+  "homepage": "https://github.com/scanf/roman-numerals#readme",
   "bin": {
-    "project_roman-numerals": "./project_roman-numerals.js"
+    "roman-numerals": "./roman-numerals.js"
   },
   "dependencies": {
+    "ava": "^1.1.0",
     "cac": "^6.4.0"
   }
 }
