@@ -1,5 +1,5 @@
 {
-  "roman-numerals": "roman-numerals",
+  "roman-numerals": "@scanf/roman-numerals",
   "version": "0.0.0",
   "description": "Convert Arabic numbers to Roman numbers",
   "main": "roman-numerals.js",
@@ -27,6 +27,10 @@
   },
   "dependencies": {
     "ava": "^1.1.0",
-    "cac": "^6.4.0"
+    "cac": "^6.4.0",
+    "roman-numerals": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1"
   }
 }
